@@ -20,6 +20,8 @@ body {
 
 img {
     max-width: 100%;
+    display: block;
+    border-radius: 5px;
 }
 
 /* Grid Geral */
@@ -96,16 +98,24 @@ img {
     background-color: #B07DFB;
 }
 
-
-
-
+/* Content */
 .content {
     grid-area: content;
 }   
 
+/* Anuncios */
+
 .anuncios {
     grid-area: anuncios;
+    background-color: #fafbfc;
+    display: grid;
+    align-content: start;
+    padding: 30px;
+    gap: 30px;
 }
+
+
+/* Footer */
 
 .footer {
     grid-area: footer;
